@@ -6,6 +6,18 @@
   font-family: 'GothamBook';
   src: url(./font/Gotham\ Book\ Regular.otf) format('truetype');
 }
+@font-face {
+  font-family: 'Montserrat';
+  src: url(./font/Montserrat-Regular.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Montserrat-Bold';
+  src: url(./font/Montserrat-Bold.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Montserrat-Thin';
+  src: url(./font/Montserrat-Thin.ttf) format('truetype');
+}
 /* -------------------------------- 
 
 Primary style
@@ -30,17 +42,66 @@ html, body {
 
 body {
   font-size: 100%;
-  font-family: GothamBook, sans-serif;
-  color: #4e6361;
+  font-family: Montserrat-Regular, sans-serif;
+  /* color: #4e6361; */
   background-color: #fcfcfc;
   max-width: 100%;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
 }
 
 a {
-  color: #6cac70;
-  /* text-decoration: none; */
+  color: #fff;
+  text-decoration: none;
+}
+a:hover {
+  color: #ff473a;
+}
+
+/* first section */
+.section-hero {
+  background: url(./img/chan_hero.jpg) no-repeat fixed;
+  background-size: cover;
+  background-position-x: center;
+  height: 720px;
+  overflow: hidden;
+  color: #fff;
+  font-family: Montserrat;
+}
+.navbar {
+  color: #fff;
+}
+.navbar-brand {
+  font-family: Montserrat-Bold;
+}
+.hero-upper {
+  height: 430px;
+}
+.greet h1{
+  font-family: Montserrat-Bold;
+  font-size: 3em;
 }
 
 
+/* second section about */
+.section-about {
+  height: 720px;
+  background: url(./img/chan_about.png) no-repeat fixed;
+  background-size: cover;
+  background-position-x: center;
+  overflow: hidden;
+  color: #fff;
+  font-family: Montserrat;
+}
+.section-about h1 {
+  font-family: Montserrat-Bold;
+}
 
+.section-about .intro-upper {
+  height: 280px;
+}
+.section-about #intro-detail {
+  color: rgba(252, 252, 252, 0.8);
+}
+.fab {
+  font-size: 1.5em;
+}
