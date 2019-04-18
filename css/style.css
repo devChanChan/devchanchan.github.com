@@ -51,10 +51,10 @@ body {
 
 a {
   color: #fff;
-  text-decoration: none;
 }
 a:hover {
   color: #ff473a;
+  text-decoration: none;
 }
 
 /* first section */
@@ -104,4 +104,14 @@ a:hover {
 }
 .fab {
   font-size: 1.5em;
+}
+
+/* third section */
+.section-portfolio {
+  height: 720px;
+  background-color: #fcfcfc;
+  color: #194964;
+}
+.portfolio-box-outer img {
+  
 }
