@@ -43,4 +43,20 @@ jQuery(document).ready(function($){
 		event.preventDefault();
 		$(this).toggleClass('submenu-open').next('.sub-menu').slideToggle(200).end().parent('.item-has-children').siblings('.item-has-children').children('a').removeClass('submenu-open').next('.sub-menu').slideUp(200);
 	});
+
+	//fade in scroll down, fade out scroll up
+	$(window).scroll(function() {
+    let windowBottom = $(this).scrollTop() + $(this).innerHeight();
+    $(".portfolio").each(function() {
+      /* Check the location of each desired element */
+      let objectBottom = $(this).offset().top + $(this).outerHeight();
+      
+      /* If the element is completely within bounds of the window, fade it in */
+      if (objectBottom < windowBottom) { //object comes into view (scrolling down)
+        if ($(this).css("opacity")==0) {$(this).fadeTo(300,1);}
+      } else { //object goes out of view (scrolling up)
+        if ($(this).css("opacity")==1) {$(this).fadeTo(300,0);}
+      }
+    });
+  }).scroll(); //invoke scroll-handler on page-load
 });

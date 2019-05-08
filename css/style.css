@@ -96,7 +96,7 @@ a:hover {
   font-family: Montserrat-Bold;
 }
 
-.section-about .intro-upper {
+.intro-upper {
   height: 280px;
 }
 .section-about #intro-detail {
@@ -108,10 +108,34 @@ a:hover {
 
 /* third section */
 .section-portfolio {
-  height: 720px;
+  height: 1500px;
   background-color: #fcfcfc;
   color: #194964;
+  font-family: Montserrat;
 }
-.portfolio-box-outer img {
-  
+.section-portfolio a {
+  color: #454545;
 }
+.portfolio-upper {
+  height: 120px;
+}
+.portfolio-box-outer {
+  padding: 40px;
+  border-top: #ff473a 0.5px solid;
+  border-bottom: #ff473a 0.5px solid;
+}
+.responsive-image {
+  width: 100%;
+  height: auto;
+}
+.portfolio {
+  margin-bottom: 80px;
+}
+.portfolio-box-links {
+  padding-top: 20px;
+}
+/* TODO Move to Reponsive CSS */
+.portfolio-box-inner {
+  padding: 20px;
+}
+
