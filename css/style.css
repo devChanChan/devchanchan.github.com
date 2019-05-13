@@ -108,7 +108,7 @@ a:hover {
 
 /* third section */
 .section-portfolio {
-  height: 1500px;
+  height: 1150px;
   background-color: #fcfcfc;
   color: #194964;
   font-family: Montserrat;
@@ -139,3 +139,33 @@ a:hover {
   padding: 20px;
 }
 
+
+
+/* Last Section */
+.last-section {
+  background-color: #ff473a;
+  height: 300px;
+  font-family: "Montserrat";
+  color: #fff;
+}
+.footer-subheader {
+  font-weight: bold;
+  margin-top: 50px;
+} 
+.connect-form form {
+  margin-top: 30px;
+}
+.footer {
+  margin-top: 20px;
+}
+.footer ul { 
+  white-space:nowrap; 
+  height: 1em;
+  width: 100%;
+} 
+.footer li { 
+  display:inline; 
+} 
+.footer a:hover {
+  color: #000;
+}
