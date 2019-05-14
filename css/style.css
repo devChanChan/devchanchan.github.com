@@ -58,7 +58,8 @@ a:hover {
 }
 
 .navbar-change{
-  background-color: #ff792e;
+  background-color: #dc143c;
+  transition: all ease .5s;
 }
 
 /* first section */
@@ -138,6 +139,9 @@ a:hover {
 .portfolio-box-links {
   padding-top: 20px;
 }
+.portfolio-box-links a:hover {
+  color: #ff792e;
+}
 /* TODO Move to Reponsive CSS */
 .portfolio-box-inner {
   padding: 20px;
@@ -147,7 +151,7 @@ a:hover {
 
 /* Last Section */
 .last-section {
-  background-color: #ff792e;
+  background-color: #dc143c;
   height: 300px;
   font-family: "Montserrat";
   color: #fff;
