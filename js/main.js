@@ -58,5 +58,14 @@ jQuery(document).ready(function($){
         if ($(this).css("opacity")==1) {$(this).fadeTo(300,0);}
       }	
     });
-  }).scroll(); //invoke scroll-handler on page-load
+	}).scroll(); //invoke scroll-handler on page-load
+	
+	$(window).scroll(function() {
+  	if($(document).scrollTop() > 1440) {
+    	$('.navbar').addClass('navbar-change');
+    }
+    else {
+    	$('.navbar').removeClass('navbar-change');
+    }
+  });
 });

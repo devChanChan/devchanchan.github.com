@@ -57,6 +57,10 @@ a:hover {
   text-decoration: none;
 }
 
+.navbar-change{
+  background-color: #ff792e;
+}
+
 /* first section */
 .section-hero {
   background: url(./img/chan_hero.jpg) no-repeat fixed;
@@ -143,7 +147,7 @@ a:hover {
 
 /* Last Section */
 .last-section {
-  background-color: #ff473a;
+  background-color: #ff792e;
   height: 300px;
   font-family: "Montserrat";
   color: #fff;
